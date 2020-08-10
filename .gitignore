@@ -4,4 +4,6 @@
 
 /.idea/
 
-/.cache/
+ext.crx
+
+ext.pem
