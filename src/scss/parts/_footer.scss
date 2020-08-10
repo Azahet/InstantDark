@@ -1,0 +1,15 @@
+
+body {
+  .p-footer--container {
+    max-width: 100%;
+
+    .p-footer-default, .p-footer-copyright {
+      background: #232323;
+      background-image: none !important;
+    }
+
+    .p-footer-custom {
+      background-color: #313742;
+    }
+  }
+}

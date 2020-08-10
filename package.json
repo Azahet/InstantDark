@@ -1,0 +1,21 @@
+{
+  "name": "instant-dark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*/* --out-dir ext/build --host localhost --https"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chroma-js": "^2.1.0",
+    "parcel": "^1.12.4",
+    "parts": "0.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}

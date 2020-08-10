@@ -1,0 +1,233 @@
+body {
+  .userBanner.userBanner {
+    border-radius: 30px;
+    margin-bottom: 12px;
+  }
+
+  .userBanner strong {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  //Admin
+  .username--style3 {
+    color: #F44336;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #f4433680 !important;
+  }
+
+  .userBanner.admin {
+    color: #e3e3e3;
+    background-color: #F44336;
+    box-shadow: 0px 0px 3px #f4433680 !important;
+    font-weight: bold;
+  }
+
+  //Super Modo
+  .username--style31 {
+    color: rgb(255, 152, 0);
+    text-shadow: 0px 0px 3px rgb(255, 152, 0, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.smodo {
+    color: white;
+    background-color: rgb(255, 152, 0);
+    box-shadow: 0px 0px 3px rgb(255, 152, 0, 0.5) !important;
+    font-weight: bold;
+  }
+
+  //Modo
+  .username--style4 {
+    color: rgb(255, 193, 0);
+    text-shadow: 0px 0px 3px rgb(255, 193, 0, 0.5) !important;
+  }
+
+  .userBanner.modo {
+    color: white;
+    background: rgb(255, 193, 0);
+    box-shadow: 0px 0px 3px rgb(255, 193, 0, 0.5) !important;
+    font-weight: bold;
+  }
+
+
+  //Assistant
+  .username--style7 {
+    color: rgb(139, 195, 74);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(139, 195, 74, 0.5) !important;
+  }
+
+  .userBanner.userBanner--green {
+    background: rgb(139, 195, 74);
+    border-color: rgb(139, 195, 74);
+    box-shadow: 0px 0px 3px rgba(139, 195, 74, 0.5) !important;
+  }
+
+
+  //Escrow
+  .username--style17 {
+    color: rgb(236, 64, 122);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(236, 64, 122, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.escrow {
+    color: white;
+    background-color: #E616D8;
+    box-shadow: 0px 0px 3px rgba(236, 64, 122, 0.5) !important;
+    font-weight: bold
+  }
+
+
+  //Analyste
+  .username--style19 {
+    color: rgb(76, 175, 80);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(76, 175, 80, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.analyste {
+    color: white;
+    background: rgb(76, 175, 80);
+    box-shadow: 0px 0px 3px rgba(76, 175, 80, 0.5) !important;
+    font-weight: bold;
+  }
+
+  //Ancien Staff
+  .username--style16 {
+    color: rgb(33, 150, 243);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(33, 150, 243, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.ancien {
+    color: white;
+    background-color: rgb(33, 150, 243);;
+    text-shadow: 0px 0px 3px rgba(33, 150, 243, 0.5) !important;
+  }
+
+  //Super VIP
+  .username--style18 {
+    color: rgb(41, 222, 205);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(41, 222, 205, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.s-vip {
+    color: white;
+    background: rgb(41, 222, 205);
+    box-shadow: 0px 0px 3px rgba(41, 222, 205, 0.5) !important;
+  }
+
+  //VIP
+  .username--style5 {
+    color: rgb(79, 195, 247);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(79, 195, 247, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.vip {
+    color: white;
+    background-color: rgb(79, 195, 247);
+    box-shadow: 0px 0px 3px rgba(79, 195, 247, 0.5) !important;
+    font-weight: bold;
+  }
+
+
+  .username--style13 {
+    color: rgb(29, 211, 151);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(29, 211, 151, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  //Donateur
+  .username--style14 {
+    color: rgb(166, 99, 253);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(166, 99, 253, 0.5) !important;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+  .userBanner.Donateur {
+    color: white;
+    background-color: rgb(166, 99, 253);
+    box-shadow: 0px 0px 3px rgba(166, 99, 253, 0.5) !important;
+    font-weight: bold;
+  }
+
+  .username--style2 {
+    color: #959fb4 !important;
+    font-weight: regular;
+
+    &::before {
+      color: inherit;
+    }
+  }
+
+//ThemeCreator
+  .username--style-rainbow{
+    font-weight: bold;
+    &:before{
+      content: "\f53f";
+      font-family: 'Font Awesome 5 Pro';
+      color: inherit;
+      padding-right: 4px;
+      display: inline-block;
+    }
+  }
+
+  .memberHeader-blurb{
+    .userBanner.themecreator{
+      margin: 0;
+      width: fit-content;
+    }
+  }
+  .userBanner.themecreator {
+    border: none;
+    color: white;
+    background: #e91e63;
+    box-shadow: 0px 0px 3px rgba( 233, 30, 99, 0.5) !important;
+    font-weight: bold;
+    margin: 12px auto 13px auto;
+  }
+
+  //Check verif
+
+  .far.fa-shield-check {
+    font-weight: 900;
+    text-shadow: none;
+  }
+
+}
+

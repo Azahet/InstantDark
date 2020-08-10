@@ -1,0 +1,44 @@
+{
+  "name": "ok THIS : Extension boilerplate",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extension was created with the awesome extensionizr.com",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "https://instant-hack.to/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://instant-hack.to/*"
+      ],
+      "css": [
+        "build/scss/main.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://instant-hack.to/*"
+      ],
+      "js": [
+        "src/inject/inject.js",
+        "build/js/main.js",
+        "build/scss/main.js"
+
+      ]
+    }
+  ]
+}
