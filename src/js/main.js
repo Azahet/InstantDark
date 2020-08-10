@@ -1,3 +1,5 @@
+ import '../scss/main.scss'
+
 import {runMarketplace} from "./marketplace";
 import {runReplace} from "./replace";
 import {runThemeCreatorRank} from  "./themeCreatorRank";

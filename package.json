@@ -5,17 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/*/* --out-dir ext/build --host localhost --https"
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.11.1",
+    "babel": "^6.23.0",
     "chroma-js": "^2.1.0",
-    "parcel": "^1.12.4",
-    "parts": "0.0.2"
+    "parts": "0.0.2",
+    "rollup": "^2.23.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.0"
   },
   "devDependencies": {
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-scss": "^2.5.0",
     "sass": "^1.26.10"
   }
 }
